@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js" defer></script>
+    <title>Todo list</title>
+</head>
+<body id="body">
+    <main id="main">
+        <article>
+            <nav>یادداشت ها</nav>
+            <section id="section-note" class="section_note"></section>
+        </article>
+        <aside>
+            <header>
+                <div class="title">ایجاد یادداشت</div>
+                <div class="page_mode">
+                    <button id="button">Dark</button>
+                </div>
+            </header>
+            <section class="section_inputs">
+                <div class="inputs">
+                    <input id="text" class="text" type="text" placeholder="> نام فعالیت" required>
+                    <input id="date" class="date" type="date" value="1400-01-01">
+                    <input id="time" class="time" type="time">
+                    <textarea id="textarea" class="textarea" placeholder="توضیحات..."></textarea>
+                </div>
+                <div class="selection">
+                    <button id="button-add">افزودن</button>
+                    <button id="clear-all-edit-info">بازنشانی</button>
+                </div>
+            </section>
+        </aside>
+    </main>
+</body>
+</html>
